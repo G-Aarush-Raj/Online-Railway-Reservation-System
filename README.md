@@ -1,13 +1,16 @@
-import javax.swing.*;
-import java.awt.event.*;
+//Online Railway Reservation System
 
-public class OnlineReservationSystem extends JFrame {
+    
+    
+    import javax.swing.*;
+    import java.awt.event.*;
+
+    public class OnlineReservationSystem extends JFrame {
     private JTextField usernameField;
     private JPasswordField passwordField;
     private JTextField trainNameField;
     private JTextField seatNumberField;
     private JTextField passengersField;
-
     public OnlineReservationSystem() {
         setTitle("Online Reservation System");
         setSize(400, 300);
